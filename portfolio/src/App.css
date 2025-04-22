@@ -1,0 +1,70 @@
+body {
+  display: block;
+  margin: 8px;
+  background-color: skyblue;
+  font-family: serif;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: Top;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+hr {
+  width: 60%;
+}
+
+.App {
+  text-align: center;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 10px auto;
+  width: 50%;
+}
